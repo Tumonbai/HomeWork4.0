@@ -41,6 +41,7 @@ public class Main {
     public static void round() {
         changeBossDefence();
         bossHit();
+        menTried();
         heroesHit();
         if (bossHealth >0){
             bossHit();
